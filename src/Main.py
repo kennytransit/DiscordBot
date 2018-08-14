@@ -17,7 +17,7 @@ async def on_ready():
 
 @bot.command(name='addTally',
                 description="Adds a tally",
-                brief="get roasted",
+                brief="git roasted",
                 aliases=['tally', 'addtally', 'Addtally'],
                 pass_context=True)
 async def addTally(ctx, desUser: str, num: int):
